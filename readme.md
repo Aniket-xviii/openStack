@@ -35,6 +35,7 @@ This guide provides detailed instructions on how to set up **OpenStack** on an *
 - **Security Group Configuration:**
   - **SSH (Port 22):** Allow access from your IP address.
   - **HTTP (Ports 80, 443):** Open access for the OpenStack Horizon dashboard.
+![Screenshot (45)](https://github.com/user-attachments/assets/b633abdb-4edd-42e9-9fd2-ee184b027677)
 
 
 ### **2. Software Requirements**
