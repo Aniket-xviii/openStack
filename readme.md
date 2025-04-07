@@ -63,8 +63,8 @@ This guide provides detailed instructions on how to set up **OpenStack** on an *
    - Enter the public IP of the EC2 instance in the **Host Name** field.
    - Go to **Connection > SSH > Auth**, click **Browse**, and select the `.ppk` file.
    - Click **Open** to connect and log in as `ubuntu`.
+![putty](https://github.com/user-attachments/assets/28908d9d-1d2c-4939-b156-a445cac5d66b)
 
-![putty](./Images/putty.png)
 
 ### **For macOS & Linux Users (Using Terminal)**
 
@@ -130,7 +130,7 @@ GIT_BASE=https://opendev.org
 
 Save and close the file (CTRL+X, then Y, then ENTER).
 
-![local.conf](./Images/local.conf.png)
+![local conf](https://github.com/user-attachments/assets/16585afb-3ec2-4fbe-93e8-9253fe0a119b)
 
 ---
 
@@ -141,12 +141,13 @@ Execute the DevStack installation script, which may take about **30-45 minutes**
 ```bash
 ./stack.sh
 ```
+![directory](https://github.com/user-attachments/assets/e6da9e0c-1b9f-4bfb-9847-3ed40875d9d4)
 
-![directory](./Images/directory.png)
 
 Upon successful installation, you will see the message: `DevStack installed successfully!`.
 
-![complete](./Images/Screenshot%202025-03-24%20090128.png)
+![Screenshot 2025-03-24 090128](https://github.com/user-attachments/assets/9f91954c-ce4f-46a6-ac6c-f462fcadfb89)
+
 
 ---
 
@@ -163,7 +164,7 @@ http://your-ec2-public-ip/dashboard
 - **Username:** `admin`
 - **Password:** `SuperSecret` (as defined in the `local.conf` file)
 
-![dashboard](./Images/dashboard.png)
+![dashboard](https://github.com/user-attachments/assets/79514be4-9d8f-47a1-bea3-263f741c1e3d)
 
 ---
 
@@ -177,8 +178,8 @@ openstack service list
 ```
 
 You should see a list of active OpenStack services if everything is working correctly.
+![openrc](https://github.com/user-attachments/assets/a906b651-ca63-4c9b-a8bc-2025a61d97b8)
 
-![openrc](./Images/openrc.png)
 
 ---
 
